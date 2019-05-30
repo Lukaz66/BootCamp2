@@ -1,0 +1,24 @@
+2019-05-22 14:52:46,857 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-22 14:53:36,916 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProjectEverisApplication in 57.249 seconds (JVM running for 60.431)
+2019-05-22 15:04:39,938 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-22 15:04:45,893 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProjectEverisApplication in 6.803 seconds (JVM running for 729.402)
+2019-05-22 15:05:49,113 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-22 15:05:53,351 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProjectEverisApplication in 4.906 seconds (JVM running for 796.865)
+2019-05-22 15:09:21,242 INFO com.everis.controllers.StudentController [https-jsse-nio-8081-exec-4] Los Student fueron listados
+2019-05-22 15:23:19,736 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-22 15:23:34,647 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProjectEverisApplication in 17.522 seconds (JVM running for 19.043)
+2019-05-22 15:24:06,915 INFO com.everis.controllers.StudentController [https-jsse-nio-8081-exec-1] Los Student fueron listados
+2019-05-22 15:27:18,247 INFO com.everis.controllers.StudentController [https-jsse-nio-8081-exec-9] Los Student fueron listados
+2019-05-22 15:47:28,030 INFO com.everis.controllers.StudentController [https-jsse-nio-8081-exec-6] Los Student fueron listados
+2019-05-22 15:49:12,312 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-22 15:49:17,911 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProjectEverisApplication in 6.48 seconds (JVM running for 1562.308)
+2019-05-22 15:50:03,894 INFO com.everis.controllers.StudentController [http-nio-8081-exec-3] Los Student fueron listados
+2019-05-22 15:54:26,523 INFO com.everis.controllers.StudentController [http-nio-8081-exec-10] Los Student fueron listados
+2019-05-22 15:54:47,044 INFO com.everis.controllers.StudentController [http-nio-8081-exec-4] Los Student fueron listados
+2019-05-22 15:57:09,010 INFO com.everis.controllers.StudentController [http-nio-8081-exec-6] Los Student fueron listados
+2019-05-22 16:28:07,234 INFO com.everis.controllers.StudentController [http-nio-8081-exec-1] Los Student fueron listados
+2019-05-22 16:28:08,222 INFO com.everis.controllers.StudentController [http-nio-8081-exec-2] Los Student fueron listados
+2019-05-22 17:51:14,016 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-22 17:51:27,930 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProjectEverisApplication in 15.311 seconds (JVM running for 8892.314)
+2019-05-22 17:54:46,949 INFO com.everis.controllers.StudentController [https-jsse-nio-8081-exec-8] Los Student fueron listados
+2019-05-22 17:59:56,244 INFO com.everis.controllers.StudentController [https-jsse-nio-8081-exec-5] Los Student fueron listados

@@ -1,0 +1,61 @@
+2019-05-20 09:53:13,744 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProjectEverisApplication on LIM-5CG61169LV with PID 13352 (C:\Users\wllanosc\Desktop\Everis\ProjectEveris\target\classes started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-20 09:53:13,781 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-20 09:53:13,782 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-20 09:53:34,820 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProjectEverisApplication in 22.791 seconds (JVM running for 26.014)
+2019-05-20 09:54:08,792 INFO com.everis.controllers.StudentController [https-jsse-nio-8989-exec-5] Los Student fueron listados
+2019-05-20 09:54:49,390 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProjectEverisApplication on LIM-5CG61169LV with PID 13352 (C:\Users\wllanosc\Desktop\Everis\ProjectEveris\target\classes started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-20 09:54:49,391 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-20 09:54:49,391 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-20 09:54:51,529 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProjectEverisApplication in 2.193 seconds (JVM running for 102.723)
+2019-05-20 10:16:58,557 INFO org.springframework.boot.StartupInfoLogger [main] Starting StudentControllerTest on LIM-5CG61169LV with PID 16496 (started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-20 10:16:58,562 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-20 10:16:58,568 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-20 10:17:04,253 INFO org.springframework.boot.StartupInfoLogger [main] Started StudentControllerTest in 6.848 seconds (JVM running for 11.624)
+2019-05-20 10:17:04,568 INFO com.everis.controllers.StudentController [main] Los Student fueron listados
+2019-05-20 10:17:05,121 INFO com.everis.controllers.StudentController [main] Student fue insertado
+2019-05-20 10:17:05,228 WARN com.everis.controllers.StudentController [main] Student eliminado
+2019-05-20 10:17:05,283 INFO com.everis.controllers.StudentController [main] Student fue actualizado
+2019-05-20 10:21:37,071 INFO org.springframework.boot.StartupInfoLogger [main] Starting StudentControllerTest on LIM-5CG61169LV with PID 6296 (started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-20 10:21:37,074 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-20 10:21:37,078 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-20 10:21:43,358 INFO org.springframework.boot.StartupInfoLogger [main] Started StudentControllerTest in 7.357 seconds (JVM running for 9.647)
+2019-05-20 10:21:43,615 INFO com.everis.controllers.StudentController [main] Los Student fueron listados
+2019-05-20 10:21:43,971 INFO com.everis.controllers.StudentController [main] Student fue insertado
+2019-05-20 10:21:44,034 WARN com.everis.controllers.StudentController [main] Student eliminado
+2019-05-20 10:21:44,069 INFO com.everis.controllers.StudentController [main] Student fue actualizado
+2019-05-20 10:53:58,333 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProjectEverisApplication on LIM-5CG61169LV with PID 4240 (C:\Users\wllanosc\Desktop\Everis\ProjectEveris\target\classes started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-20 10:53:58,486 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-20 10:53:58,488 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-20 10:54:13,740 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProjectEverisApplication in 17.35 seconds (JVM running for 22.041)
+2019-05-20 10:54:49,358 INFO com.everis.controllers.StudentController [https-jsse-nio-8989-exec-7] Student fue insertado
+2019-05-20 11:01:01,096 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProjectEverisApplication on LIM-5CG61169LV with PID 4240 (C:\Users\wllanosc\Desktop\Everis\ProjectEveris\target\classes started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-20 11:01:01,097 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-20 11:01:01,097 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-20 11:01:03,129 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProjectEverisApplication in 2.153 seconds (JVM running for 431.415)
+2019-05-20 11:02:06,127 INFO com.everis.controllers.StudentController [https-jsse-nio-8989-exec-10] Student fue insertado
+2019-05-20 11:02:41,342 INFO com.everis.controllers.StudentController [https-jsse-nio-8989-exec-9] Los Student fueron listados
+2019-05-20 11:03:52,541 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProjectEverisApplication on LIM-5CG61169LV with PID 4240 (C:\Users\wllanosc\Desktop\Everis\ProjectEveris\target\classes started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-20 11:03:52,541 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-20 11:03:52,542 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-20 11:03:54,372 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProjectEverisApplication in 1.869 seconds (JVM running for 602.655)
+2019-05-20 11:04:45,665 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProjectEverisApplication on LIM-5CG61169LV with PID 4240 (C:\Users\wllanosc\Desktop\Everis\ProjectEveris\target\classes started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-20 11:04:45,665 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-20 11:04:45,666 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-20 11:04:47,412 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProjectEverisApplication in 1.783 seconds (JVM running for 655.694)
+2019-05-20 11:04:54,261 INFO com.everis.controllers.StudentController [https-jsse-nio-8989-exec-5] Student fue insertado
+2019-05-20 11:05:29,608 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProjectEverisApplication on LIM-5CG61169LV with PID 4240 (C:\Users\wllanosc\Desktop\Everis\ProjectEveris\target\classes started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-20 11:05:29,609 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-20 11:05:29,609 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-20 11:05:31,248 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProjectEverisApplication in 1.674 seconds (JVM running for 699.529)
+2019-05-20 11:07:43,295 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProjectEverisApplication on LIM-5CG61169LV with PID 4240 (C:\Users\wllanosc\Desktop\Everis\ProjectEveris\target\classes started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-20 11:07:43,296 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-20 11:07:43,296 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-20 11:07:45,231 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProjectEverisApplication in 1.977 seconds (JVM running for 833.511)
+2019-05-20 11:07:54,373 INFO com.everis.controllers.StudentController [https-jsse-nio-8989-exec-6] Los Student fueron listados
+2019-05-20 11:08:12,224 WARN com.everis.controllers.StudentController [https-jsse-nio-8989-exec-7] Student eliminado
+2019-05-20 11:08:26,545 INFO com.everis.controllers.StudentController [https-jsse-nio-8989-exec-4] Los Student fueron listados
+2019-05-20 11:08:39,106 INFO com.everis.controllers.StudentController [https-jsse-nio-8989-exec-5] Student fue insertado
+2019-05-20 16:30:55,430 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProjectEverisApplication on LIM-5CG61169LV with PID 12228 (C:\Users\wllanosc\Desktop\Everis\ProjectEveris\target\classes started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-20 16:30:55,442 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-20 16:30:55,443 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-20 16:31:09,242 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProjectEverisApplication in 14.965 seconds (JVM running for 17.061)

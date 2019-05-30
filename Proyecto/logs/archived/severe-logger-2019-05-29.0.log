@@ -1,0 +1,5 @@
+2019-05-29 14:30:59,169 WARN com.everis.controllers.TeacherController [http-nio-8081-exec-4] Un Teacher Fue Eliminado
+2019-05-29 14:53:47,911 WARN com.everis.controllers.TeacherController [http-nio-8081-exec-2] Un Teacher Fue Eliminado
+2019-05-29 15:10:00,190 WARN com.everis.controllers.SubjectController [http-nio-8081-exec-9] Un Subject Fue Eliminado
+2019-05-29 15:17:00,070 WARN com.everis.controllers.ClassController [http-nio-8081-exec-4] Se Elimino una Clase
+2019-05-29 15:23:59,323 WARN com.everis.controllers.TeacherController [http-nio-8081-exec-10] Un Teacher Fue Eliminado

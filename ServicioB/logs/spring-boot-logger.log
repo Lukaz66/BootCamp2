@@ -1,0 +1,16 @@
+2019-05-30 01:29:39,059 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-30 01:29:45,505 |  | DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMDCFilter' configured for use
+2019-05-30 01:34:57,272 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-30 01:35:12,395 |  | DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMDCFilter' configured for use
+2019-05-30 01:36:20,544 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-30 01:36:25,519 |  | DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMDCFilter' configured for use
+2019-05-30 01:37:23,701 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-30 01:37:28,355 |  | DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMDCFilter' configured for use
+2019-05-30 01:37:45,184 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProjectEverisApplication in 23.264 seconds (JVM running for 24.521)
+2019-05-30 01:40:05,299 | 3289BD46994F4A38BDA586CEDA2FFFD0 | INFO com.everis.controllers.StudentController [http-nio-8091-exec-2] Los Student fueron listados
+2019-05-30 01:41:21,535 | 2044FB8B5AAA492FACAF8DBDC9F26700 | INFO com.everis.controllers.StudentController [http-nio-8091-exec-5] Student fue insertado
+2019-05-30 01:41:31,681 | 4467327EA2534687B2F6F002271B2124 | INFO com.everis.controllers.StudentController [http-nio-8091-exec-6] Student fue insertado
+2019-05-30 01:41:47,092 | 59A4BA99610E480A8792ACFFA860DC16 | INFO com.everis.controllers.StudentController [http-nio-8091-exec-10] Student fue insertado
+2019-05-30 01:41:51,611 | BE38963CBA4E487396D127AECA81C0B7 | INFO com.everis.controllers.StudentController [http-nio-8091-exec-8] Student fue insertado
+2019-05-30 01:41:59,881 | BD99DE7165544CE5A24BE88023E67EEF | INFO com.everis.controllers.StudentController [http-nio-8091-exec-7] Student fue insertado
+2019-05-30 01:42:03,546 | EE7C30E1C5DC46EB970AEF0D5AFD126B | INFO com.everis.controllers.StudentController [http-nio-8091-exec-9] Los Student fueron listados

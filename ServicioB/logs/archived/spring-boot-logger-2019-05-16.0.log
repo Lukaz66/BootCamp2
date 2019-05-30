@@ -1,0 +1,165 @@
+2019-05-16 13:37:10,887 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProjectEverisApplication on LIM-5CG61169LV with PID 2256 (C:\Users\wllanosc\Desktop\Everis\ProjectEveris\target\classes started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 13:37:10,903 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 13:37:10,903 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-16 13:37:14,459 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProjectEverisApplication in 3.681 seconds (JVM running for 126.927)
+2019-05-16 13:39:34,074 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProjectEverisApplication on LIM-5CG61169LV with PID 16784 (C:\Users\wllanosc\Desktop\Everis\ProjectEveris\target\classes started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 13:39:34,074 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 13:39:34,074 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-16 13:39:42,827 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProjectEverisApplication in 9.15 seconds (JVM running for 10.076)
+2019-05-16 13:39:50,401 INFO com.everis.controllers.ParentController [https-jsse-nio-8989-exec-5] Los Parent Fueron Listados
+2019-05-16 13:39:58,278 INFO com.everis.controllers.FamilyController [https-jsse-nio-8989-exec-6] Listar Family con FamilyMember por Id
+2019-05-16 13:41:33,408 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProjectEverisApplication on LIM-5CG61169LV with PID 17340 (C:\Users\wllanosc\Desktop\Everis\ProjectEveris\target\classes started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 13:41:33,412 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 13:41:33,413 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-16 13:41:39,227 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProjectEverisApplication in 6.253 seconds (JVM running for 7.11)
+2019-05-16 13:55:22,567 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProjectEverisApplication on LIM-5CG61169LV with PID 1280 (C:\Users\wllanosc\Desktop\Everis\ProjectEveris\target\classes started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 13:55:22,582 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 13:55:22,582 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-16 13:55:29,004 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProjectEverisApplication in 6.873 seconds (JVM running for 7.776)
+2019-05-16 13:56:57,159 INFO com.everis.controllers.ParentController [https-jsse-nio-8989-exec-1] Los Parent Fueron Listados
+2019-05-16 15:17:44,326 INFO org.springframework.boot.StartupInfoLogger [main] Starting ParentControllerTest on LIM-5CG61169LV with PID 8216 (started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 15:17:44,336 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 15:17:44,337 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-16 15:17:57,443 INFO org.springframework.boot.StartupInfoLogger [main] Started ParentControllerTest in 14.176 seconds (JVM running for 17.134)
+2019-05-16 15:19:47,421 INFO org.springframework.boot.StartupInfoLogger [main] Starting ParentControllerTest on LIM-5CG61169LV with PID 6932 (started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 15:19:47,423 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 15:19:47,423 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-16 15:19:57,330 INFO org.springframework.boot.StartupInfoLogger [main] Started ParentControllerTest in 10.478 seconds (JVM running for 11.698)
+2019-05-16 15:21:07,381 INFO org.springframework.boot.StartupInfoLogger [main] Starting ParentControllerTest on LIM-5CG61169LV with PID 15416 (started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 15:21:07,383 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 15:21:07,384 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-16 15:21:17,231 INFO org.springframework.boot.StartupInfoLogger [main] Started ParentControllerTest in 10.482 seconds (JVM running for 11.784)
+2019-05-16 15:21:32,126 INFO org.springframework.boot.StartupInfoLogger [main] Starting ParentControllerTest on LIM-5CG61169LV with PID 7500 (started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 15:21:32,129 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 15:21:32,131 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-16 15:21:42,081 INFO org.springframework.boot.StartupInfoLogger [main] Started ParentControllerTest in 10.502 seconds (JVM running for 11.83)
+2019-05-16 15:55:40,939 INFO org.springframework.boot.StartupInfoLogger [main] Starting FamilyControllerTest on LIM-5CG61169LV with PID 16856 (started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 15:55:40,942 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 15:55:40,943 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-16 15:55:51,161 INFO org.springframework.boot.StartupInfoLogger [main] Started FamilyControllerTest in 10.824 seconds (JVM running for 12.692)
+2019-05-16 16:00:03,061 INFO org.springframework.boot.StartupInfoLogger [main] Starting StudentControllerTest on LIM-5CG61169LV with PID 2392 (started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 16:00:03,063 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 16:00:03,064 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-16 16:00:13,977 INFO org.springframework.boot.StartupInfoLogger [main] Started StudentControllerTest in 11.556 seconds (JVM running for 12.796)
+2019-05-16 16:04:04,091 INFO org.springframework.boot.StartupInfoLogger [main] Starting FamilyMemberControllerTest on LIM-5CG61169LV with PID 12908 (started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 16:04:04,092 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 16:04:04,093 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-16 16:04:15,984 INFO org.springframework.boot.StartupInfoLogger [main] Started FamilyMemberControllerTest in 12.509 seconds (JVM running for 13.769)
+2019-05-16 16:24:33,280 INFO org.springframework.boot.StartupInfoLogger [main] Starting ParentControllerTest on LIM-5CG61169LV with PID 15504 (started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 16:24:33,333 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 16:24:33,335 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-16 16:24:46,894 INFO org.springframework.boot.StartupInfoLogger [main] Started ParentControllerTest in 15.167 seconds (JVM running for 18.938)
+2019-05-16 16:26:02,829 INFO org.springframework.boot.StartupInfoLogger [main] Starting ParentControllerTest on LIM-5CG61169LV with PID 15872 (started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 16:26:02,831 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 16:26:02,832 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-16 16:26:13,844 INFO org.springframework.boot.StartupInfoLogger [main] Started ParentControllerTest in 11.704 seconds (JVM running for 13.138)
+2019-05-16 16:26:56,874 INFO org.springframework.boot.StartupInfoLogger [main] Starting ParentControllerTest on LIM-5CG61169LV with PID 15880 (started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 16:26:56,876 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 16:26:56,878 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-16 16:27:07,635 INFO org.springframework.boot.StartupInfoLogger [main] Started ParentControllerTest in 11.432 seconds (JVM running for 12.73)
+2019-05-16 16:27:42,867 INFO org.springframework.boot.StartupInfoLogger [main] Starting FamilyControllerTest on LIM-5CG61169LV with PID 6424 (started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 16:27:42,869 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 16:27:42,870 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-16 16:27:53,448 INFO org.springframework.boot.StartupInfoLogger [main] Started FamilyControllerTest in 11.271 seconds (JVM running for 12.536)
+2019-05-16 16:29:52,726 INFO org.springframework.boot.StartupInfoLogger [main] Starting ParentControllerTest on LIM-5CG61169LV with PID 11316 (started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 16:29:52,728 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 16:29:52,729 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-16 16:30:03,928 INFO org.springframework.boot.StartupInfoLogger [main] Started ParentControllerTest in 11.826 seconds (JVM running for 13.245)
+2019-05-16 16:32:46,482 INFO org.springframework.boot.StartupInfoLogger [main] Starting ParentControllerTest on LIM-5CG61169LV with PID 7076 (started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 16:32:46,485 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 16:32:46,486 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-16 16:32:57,821 INFO org.springframework.boot.StartupInfoLogger [main] Started ParentControllerTest in 11.963 seconds (JVM running for 13.2)
+2019-05-16 16:33:55,801 INFO org.springframework.boot.StartupInfoLogger [main] Starting ParentControllerTest on LIM-5CG61169LV with PID 9040 (started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 16:33:55,803 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 16:33:55,804 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-16 16:34:06,044 INFO org.springframework.boot.StartupInfoLogger [main] Started ParentControllerTest in 10.842 seconds (JVM running for 12.356)
+2019-05-16 17:13:57,847 INFO org.springframework.boot.StartupInfoLogger [main] Starting FamilyControllerTest on LIM-5CG61169LV with PID 2844 (started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 17:13:57,849 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 17:13:57,850 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-16 17:14:10,067 INFO org.springframework.boot.StartupInfoLogger [main] Started FamilyControllerTest in 12.944 seconds (JVM running for 15.011)
+2019-05-16 17:14:23,335 INFO org.springframework.boot.StartupInfoLogger [main] Starting FamilyMemberControllerTest on LIM-5CG61169LV with PID 2232 (started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 17:14:23,337 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 17:14:23,338 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-16 17:14:34,205 INFO org.springframework.boot.StartupInfoLogger [main] Started FamilyMemberControllerTest in 11.472 seconds (JVM running for 12.692)
+2019-05-16 17:17:22,319 INFO org.springframework.boot.StartupInfoLogger [main] Starting FamilyControllerTest on LIM-5CG61169LV with PID 11680 (started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 17:17:22,322 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 17:17:22,323 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-16 17:17:32,926 INFO org.springframework.boot.StartupInfoLogger [main] Started FamilyControllerTest in 11.402 seconds (JVM running for 12.849)
+2019-05-16 17:18:30,080 INFO org.springframework.boot.StartupInfoLogger [main] Starting ParentControllerTest on LIM-5CG61169LV with PID 9840 (started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 17:18:30,081 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 17:18:30,082 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-16 17:18:39,136 INFO org.springframework.boot.StartupInfoLogger [main] Started ParentControllerTest in 9.66 seconds (JVM running for 11.054)
+2019-05-16 18:18:00,040 INFO org.springframework.boot.StartupInfoLogger [main] Starting ParentControllerTest on LIM-5CG61169LV with PID 17376 (started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 18:18:00,042 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 18:18:00,043 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-16 18:18:12,050 INFO org.springframework.boot.StartupInfoLogger [main] Started ParentControllerTest in 12.584 seconds (JVM running for 13.804)
+2019-05-16 18:19:34,744 INFO org.springframework.boot.StartupInfoLogger [main] Starting ParentControllerTest on LIM-5CG61169LV with PID 7980 (started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 18:19:34,746 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 18:19:34,747 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-16 18:19:45,599 INFO org.springframework.boot.StartupInfoLogger [main] Started ParentControllerTest in 11.46 seconds (JVM running for 12.801)
+2019-05-16 18:21:27,877 INFO org.springframework.boot.StartupInfoLogger [main] Starting ParentControllerTest on LIM-5CG61169LV with PID 12180 (started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 18:21:27,879 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 18:21:27,880 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-16 18:21:38,056 INFO org.springframework.boot.StartupInfoLogger [main] Started ParentControllerTest in 10.861 seconds (JVM running for 12.31)
+2019-05-16 18:22:24,617 INFO org.springframework.boot.StartupInfoLogger [main] Starting ParentControllerTest on LIM-5CG61169LV with PID 17352 (started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 18:22:24,620 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 18:22:24,622 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-16 18:22:34,733 INFO org.springframework.boot.StartupInfoLogger [main] Started ParentControllerTest in 10.818 seconds (JVM running for 12.163)
+2019-05-16 18:23:17,230 INFO org.springframework.boot.StartupInfoLogger [main] Starting ParentControllerTest on LIM-5CG61169LV with PID 7560 (started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 18:23:17,236 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 18:23:17,237 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-16 18:23:26,652 INFO org.springframework.boot.StartupInfoLogger [main] Started ParentControllerTest in 10.078 seconds (JVM running for 11.476)
+2019-05-16 18:25:24,300 INFO org.springframework.boot.StartupInfoLogger [main] Starting ParentControllerTest on LIM-5CG61169LV with PID 17268 (started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 18:25:24,304 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 18:25:24,305 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-16 18:25:33,498 INFO org.springframework.boot.StartupInfoLogger [main] Started ParentControllerTest in 9.907 seconds (JVM running for 11.4)
+2019-05-16 18:26:52,462 INFO org.springframework.boot.StartupInfoLogger [main] Starting ParentControllerTest on LIM-5CG61169LV with PID 15252 (started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 18:26:52,463 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 18:26:52,465 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-16 18:27:02,475 INFO org.springframework.boot.StartupInfoLogger [main] Started ParentControllerTest in 10.606 seconds (JVM running for 11.791)
+2019-05-16 18:27:39,302 INFO org.springframework.boot.StartupInfoLogger [main] Starting ParentControllerTest on LIM-5CG61169LV with PID 15616 (started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 18:27:39,304 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 18:27:39,305 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-16 18:27:49,531 INFO org.springframework.boot.StartupInfoLogger [main] Started ParentControllerTest in 10.969 seconds (JVM running for 12.301)
+2019-05-16 18:32:14,681 INFO org.springframework.boot.StartupInfoLogger [main] Starting ParentControllerTest on LIM-5CG61169LV with PID 672 (started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 18:32:14,682 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 18:32:14,683 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-16 18:32:24,770 INFO org.springframework.boot.StartupInfoLogger [main] Started ParentControllerTest in 10.692 seconds (JVM running for 11.996)
+2019-05-16 18:32:50,636 INFO org.springframework.boot.StartupInfoLogger [main] Starting ParentControllerTest on LIM-5CG61169LV with PID 11508 (started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 18:32:50,638 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 18:32:50,639 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-16 18:33:00,375 INFO org.springframework.boot.StartupInfoLogger [main] Started ParentControllerTest in 10.331 seconds (JVM running for 11.677)
+2019-05-16 18:35:03,280 INFO org.springframework.boot.StartupInfoLogger [main] Starting ParentControllerTest on LIM-5CG61169LV with PID 16460 (started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 18:35:03,282 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 18:35:03,284 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-16 18:35:13,412 INFO org.springframework.boot.StartupInfoLogger [main] Started ParentControllerTest in 10.736 seconds (JVM running for 11.967)
+2019-05-16 18:52:13,338 INFO org.springframework.boot.StartupInfoLogger [main] Starting ParentControllerTest on LIM-5CG61169LV with PID 4888 (started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 18:52:13,340 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 18:52:13,341 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-16 18:52:22,137 INFO org.springframework.boot.StartupInfoLogger [main] Started ParentControllerTest in 9.414 seconds (JVM running for 10.859)
+2019-05-16 18:53:52,632 INFO org.springframework.boot.StartupInfoLogger [main] Starting ParentControllerTest on LIM-5CG61169LV with PID 9192 (started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 18:53:52,635 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 18:53:52,636 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-16 18:54:02,506 INFO org.springframework.boot.StartupInfoLogger [main] Started ParentControllerTest in 10.488 seconds (JVM running for 11.722)
+2019-05-16 18:55:04,377 INFO org.springframework.boot.StartupInfoLogger [main] Starting ParentControllerTest on LIM-5CG61169LV with PID 6268 (started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 18:55:04,379 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 18:55:04,380 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-16 18:55:14,288 INFO org.springframework.boot.StartupInfoLogger [main] Started ParentControllerTest in 10.451 seconds (JVM running for 11.71)
+2019-05-16 18:59:10,678 INFO org.springframework.boot.StartupInfoLogger [main] Starting StudentControllerTest on LIM-5CG61169LV with PID 916 (started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 18:59:10,680 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 18:59:10,681 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-16 18:59:20,381 INFO org.springframework.boot.StartupInfoLogger [main] Started StudentControllerTest in 10.389 seconds (JVM running for 11.724)
+2019-05-16 19:02:37,083 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProjectEverisApplication on LIM-5CG61169LV with PID 15884 (C:\Users\wllanosc\Desktop\Everis\ProjectEveris\target\classes started by wllanosc in C:\Users\wllanosc\Desktop\Everis\ProjectEveris)
+2019-05-16 19:02:37,086 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-16 19:02:37,087 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-16 19:02:43,929 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProjectEverisApplication in 7.307 seconds (JVM running for 8.426)
+2019-05-16 19:03:17,158 INFO com.everis.controllers.ParentController [https-jsse-nio-8989-exec-10] Los Parent Fueron Listados
+2019-05-16 19:05:48,136 INFO com.everis.controllers.FamilyController [https-jsse-nio-8989-exec-4] Las familias fueron listadas
+2019-05-16 19:06:38,049 INFO com.everis.controllers.FamilyController [https-jsse-nio-8989-exec-8] Family fue actualizada
+2019-05-16 19:06:47,315 INFO com.everis.controllers.FamilyController [https-jsse-nio-8989-exec-10] Las familias fueron listadas
+2019-05-16 19:07:05,478 INFO com.everis.controllers.FamilyController [https-jsse-nio-8989-exec-7] Family fue actualizada
+2019-05-16 19:07:46,573 INFO com.everis.controllers.FamilyController [https-jsse-nio-8989-exec-2] Las familias fueron listadas
+2019-05-16 19:08:46,319 INFO com.everis.controllers.FamilyController [https-jsse-nio-8989-exec-1] Family fue actualizada
+2019-05-16 19:08:57,919 INFO com.everis.controllers.FamilyController [https-jsse-nio-8989-exec-6] Las familias fueron listadas
+2019-05-16 19:11:29,835 INFO com.everis.controllers.FamilyController [https-jsse-nio-8989-exec-7] Listar Family con FamilyMember por Id
+2019-05-16 19:11:38,617 INFO com.everis.controllers.FamilyController [https-jsse-nio-8989-exec-2] Family fue actualizada
