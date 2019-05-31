@@ -5,6 +5,8 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.IdClass;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 import lombok.AllArgsConstructor;
@@ -40,6 +42,8 @@ public class StudentClass {
   private Student student;
 
   @Id
+  @JoinColumn(name = "classId", referencedColumnName = "classId")
+  @ManyToOne
   private Class classes;
 
   @Column(name = "dateTo", length = 50)
@@ -48,5 +52,5 @@ public class StudentClass {
   @JsonIgnore
   @Column(name = "deleteStatus")
   private int deleteStatus = 0;
-
+  
 }

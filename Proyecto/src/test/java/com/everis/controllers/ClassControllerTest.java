@@ -4,7 +4,6 @@ import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.delete;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.put;
@@ -29,6 +28,7 @@ import org.springframework.http.MediaType;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 
+
 @RunWith(SpringRunner.class)
 @WebMvcTest(ClassController.class)
 public class ClassControllerTest {
@@ -49,6 +49,15 @@ public class ClassControllerTest {
     this.mockMvc.perform(get("/api/v1.0/classes")).andExpect(status().isOk())
         .andExpect(content().json("[]"));
   }
+  
+  @Test
+  public void testFindAllNotFound() throws Exception {
+    List<Class> clas = new ArrayList<>();
+    given(classController.findAll()).willReturn(clas);
+
+    this.mockMvc.perform(get("/api/v1.0/clas"))
+        .andExpect(status().isNotFound());
+  }  
 
   @Test
   public void testFindById() throws Exception {
@@ -75,6 +84,13 @@ public class ClassControllerTest {
                 + "\"Ichica\",\"lastName\":\"Nakano\",\"otherTeacherDetail\":\"Java Profecional\"}"
                 + "}"));
   }
+  
+  @Test
+  public void testFindByIdNotFound() throws Exception {
+    given(classController.findById(10)).willReturn(clas);
+    this.mockMvc.perform(get("/api/v1.0/classes/10"))
+      .andExpect(status().isNotFound());
+  }
 
   @Test
   public void testSave() throws Exception {
@@ -95,12 +111,23 @@ public class ClassControllerTest {
         .contentType(MediaType.APPLICATION_JSON).content(asJsonString(clas)))
         .andExpect(status().isCreated());
   }
+  
+  @Test
+  public void testSaveNotFound() throws Exception {
+    clas = new Class();
+
+    classController.save(clas);
+
+    this.mockMvc.perform(post("/api/v1.0/classes"))
+        .andExpect(status().isBadRequest());
+  }
 
   @Test
   public void testUpdate() throws Exception {
     Subject subject = new Subject(1, "JavaScript", 0, null);
     Teacher teacher = new Teacher(1, "Everis", "M", "Lukas", "Maycol", "Llanos",
         "Programador", 0, null);
+
     clas = new Class();
     clas.setClassCode("CL-01");
     clas.setClassName("JavaFull");
@@ -116,6 +143,27 @@ public class ClassControllerTest {
         .andExpect(status().isNoContent());
   }
 
+  @Test
+  public void testUpdateNotFound() throws Exception {
+    Subject subject = new Subject(1, "JavaScript", 0, null);
+    Teacher teacher = new Teacher(1, "Everis", "M", "Lukas", "Maycol", "Llanos",
+        "Programador", 0, null);
+    
+    clas = new Class();
+    clas.setClassCode("CL-01");
+    clas.setClassName("JavaFullprogramador");
+    clas.setDateFrom("02/04/2019");
+    clas.setDateTo("02/05/2019");
+    clas.setSubject(subject);
+    clas.setTeacher(teacher);
+
+    classController.update(clas);
+
+    this.mockMvc.perform(put("/api/v1.0/classes"))
+        .andExpect(status().isBadRequest());
+  }
+  
+  
   // @Test
   // public void testPatch() {
   // fail("Not yet implemented");

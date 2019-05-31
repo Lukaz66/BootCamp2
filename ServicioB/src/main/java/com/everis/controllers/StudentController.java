@@ -34,7 +34,7 @@ import io.swagger.annotations.ApiOperation;
  * @since V 1.0
  */
 @RestController
-@RequestMapping("/api/v1.0/students")
+@RequestMapping("/api/v2.0/students")
 @Api(tags = "CRUD de datos Student")
 public class StudentController {
 

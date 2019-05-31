@@ -5,7 +5,6 @@ import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.patch;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.put;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
@@ -14,7 +13,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import com.everis.models.Teacher;
 import com.everis.services.ITeacherService;
 import com.fasterxml.jackson.databind.ObjectMapper;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -49,6 +47,15 @@ public class TeacherControllerTest {
   }
 
   @Test
+  public void testFindAllNotFound() throws Exception {
+    List<Teacher> teacher = new ArrayList<>();
+    given(teacherController.findAll()).willReturn(teacher);
+
+    this.mockMvc.perform(get("/api/v1.0/tech"))
+        .andExpect(status().isNotFound());
+  }  
+  
+  @Test
   public void testFindById() throws Exception {
 
     teacher = new Teacher();
@@ -67,6 +74,13 @@ public class TeacherControllerTest {
             .json("{\"teacherId\":1,\"schoolName\":\"Everis\",\"gender\":\"F\","
                 + "\"firstName\":\"Ninos\",\"middleName\":\"Ichica\",\"lastName\":\"Nakano\","
                 + "\"otherTeacherDetail\":\"PHP Profecional\"}"));
+  }
+  
+  @Test
+  public void testFindByIdNotFound() throws Exception {
+    given(teacherController.findById(10)).willReturn(teacher);
+    this.mockMvc.perform(get("/api/v1.0/teachers/10"))
+      .andExpect(status().isNotFound());
   }
 
   @Test
@@ -90,6 +104,16 @@ public class TeacherControllerTest {
   }
 
   @Test
+  public void testSaveNotFound() throws Exception {
+    teacher = new Teacher();
+    
+    teacherController.save(teacher);
+
+    this.mockMvc.perform(post("/api/v1.0/teachers"))
+        .andExpect(status().isBadRequest());
+  }  
+  
+  @Test
   public void testUpdate() throws Exception {
 
     teacher = new Teacher();
@@ -109,7 +133,23 @@ public class TeacherControllerTest {
         .andExpect(status().isNoContent());
 
   }
+  
+  @Test
+  public void testUpdateNotFound() throws Exception {
+    teacher = new Teacher();
+    teacher.setSchoolName("Everis");
+    teacher.setGender("F");
+    teacher.setFirstName("Ninosasdasd");
+    teacher.setMiddleName("Ichica");
+    teacher.setLastName("Nakano");
+    teacher.setOtherTeacherDetail("PHP Profecional");
 
+    teacherController.update(teacher);
+
+    this.mockMvc.perform(put("/api/v1.0/teachers"))
+        .andExpect(status().isBadRequest());
+  }
+  
   // @Test
   // public void testPatch() throws Exception {
   //

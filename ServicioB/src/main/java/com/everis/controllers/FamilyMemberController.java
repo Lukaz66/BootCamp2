@@ -29,7 +29,7 @@ import io.swagger.annotations.ApiOperation;
  * @since V 1.0
  */
 @RestController
-@RequestMapping("/api/V1.0/familymember")
+@RequestMapping("/api/v2.0/familymember")
 @Api(tags = "CRUD de datos FamilyMember")
 public class FamilyMemberController {
 

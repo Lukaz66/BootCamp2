@@ -17,6 +17,13 @@ import org.springframework.stereotype.Service;
 @Service
 public interface IStudentClassService {
 
+  /**}
+   * Metodo para listar los estudiantes por un classId dado.
+   * @param classId id de class
+   * @return una lista con los students.
+   */
+  List<Integer> findIdStudentByClassId(int classId);
+  
   /**
    * Metodo para obtener la lista de los studenClass.
    * 
@@ -32,15 +39,6 @@ public interface IStudentClassService {
    * @return un nuevo campo a la entidad studentClass.
    */
   StudentClass save(StudentClass studentClass);
-
-  /**
-   * Metodo para actualizar los campos de un objeto de la entidad studentClass.
-   * 
-   * @param studentClass
-   *          nombre de la entidad
-   * @return el objeto con los campos actualizados
-   */
-  StudentClass update(StudentClass studentClass);
 
   /**
    * Metodo para desabilitar el campo, uso de eliminacion logica.

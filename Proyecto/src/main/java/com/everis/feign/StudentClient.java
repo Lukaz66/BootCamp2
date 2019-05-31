@@ -1,5 +1,6 @@
 package com.everis.feign;
 
+import com.everis.models.Student;
 import java.util.List;
 
 import org.springframework.cloud.openfeign.FeignClient;
@@ -23,8 +24,8 @@ public interface StudentClient {
    * 
    * @return lista de todos los student
    */
-  @RequestMapping("/api/v1.0/students")
-  List<Object> getList();
+  @RequestMapping("/api/v2.0/students")
+  List<Student> getList();
 
   /**
    * Metodo para obtener la lista de Student por los ids dados.
@@ -33,7 +34,7 @@ public interface StudentClient {
    *          guarda la lista de los students
    * @return la lista por los ids puentos en el body.
    */
-  @RequestMapping("/api/v1.0/students/ids")
-  List<Object> getAllById(@RequestBody List<Integer> listStudentId);
+  @RequestMapping("/api/v2.0/students/ids")
+  List<Student> getAllById(@RequestBody List<Integer> listStudentId);
 
 }

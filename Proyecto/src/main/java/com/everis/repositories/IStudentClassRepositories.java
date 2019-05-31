@@ -1,7 +1,7 @@
 package com.everis.repositories;
 
-import com.everis.models.Student;
 import com.everis.models.StudentClass;
+
 import java.util.List;
 
 import javax.transaction.Transactional;
@@ -30,8 +30,9 @@ public interface IStudentClassRepositories
    *          obtiene la clase
    * @return lista del class con los students
    */
-  @Query(value = "select s.studentId from StudentClass s where s.classId = ?1", nativeQuery = true)
-  List<Student> findIdStudentByClassId(Integer classId);
+  @Query(value = "select s.student_id from student_class s where s.class_id = ?1", 
+      nativeQuery = true)
+  List<Integer> findIdStudentByClassId(Integer classId);
 
   /**
    * Metodos para la eliminacion logica.

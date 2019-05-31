@@ -1,6 +1,8 @@
 package com.everis.repositories;
 
 import com.everis.models.Class;
+import com.everis.models.dtoprojection.StudentProjection;
+
 import java.util.List;
 
 import javax.transaction.Transactional;
@@ -43,4 +45,7 @@ public interface IClassRepositorie extends CrudRepository<Class, Integer> {
   @Transactional
   public void softDelete(int id);
 
+  @Query("select c from Class c")
+  public List<StudentProjection> getAll();
+  
 }

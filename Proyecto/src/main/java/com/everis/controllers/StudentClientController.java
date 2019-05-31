@@ -1,13 +1,13 @@
 package com.everis.controllers;
 
 import com.everis.feign.StudentClient;
+import com.everis.models.Student;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -50,7 +50,7 @@ public class StudentClientController {
   @GetMapping
   @HystrixCommand(fallbackMethod = "getList_fallback", commandProperties = {
       @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "2000")})
-  public List<Object> getList() throws InterruptedException {
+  public List<Student> getList() throws InterruptedException {
     return studentClient.getList();
   }
 
@@ -64,7 +64,7 @@ public class StudentClientController {
   @PostMapping("/ids")
   @HystrixCommand(fallbackMethod = "getAllById_fallback", commandProperties = {
       @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "2000")})
-  public List<Object> getAllById(@RequestBody List<Integer> listStudentById)
+  public List<Student> getAllById(@RequestBody List<Integer> listStudentById)
       throws InterruptedException {
     return studentClient.getAllById(listStudentById);
   }
@@ -74,10 +74,8 @@ public class StudentClientController {
    * 
    * @return lista con el mensaje de error
    */
-  public List<Object> getList_fallback() {
-    List<Object> error = new ArrayList<Object>();
-    error.add("Error en el servidor de Listar todos los Students");
-    return error;
+  public List<Student> getList_fallback() {
+    return studentClient.getList();
   }
 
   /**
@@ -85,11 +83,9 @@ public class StudentClientController {
    * 
    * @return
    */
-  public List<Object> getAllById_fallback(
-      @RequestBody List<Integer> listStudentById) {
-    List<Object> error = new ArrayList<Object>();
-    error.add("Ahora no Joven, regrese mas tarde");
-    return error;
+  public List<Student> getAllById_fallback(
+      List<Integer> listStudentById) {
+    return studentClient.getList();
   }
 
 }

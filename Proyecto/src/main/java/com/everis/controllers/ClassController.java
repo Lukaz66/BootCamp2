@@ -1,6 +1,7 @@
 package com.everis.controllers;
 
 import com.everis.models.Class;
+import com.everis.models.dtoprojection.StudentProjection;
 import com.everis.services.IClassService;
 
 import io.swagger.annotations.Api;
@@ -126,6 +127,11 @@ public class ClassController {
   public void delete(@PathVariable("id") int id) {
     log.warning("Se Elimino una Clase");
     classService.softDelete(id);
+  }
+  
+  @GetMapping("/students")
+  public List<StudentProjection> getStudent() {
+    return classService.findAllStudents();
   }
 
 }

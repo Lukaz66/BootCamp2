@@ -1,6 +1,7 @@
 package com.everis.services;
 
 import com.everis.models.Class;
+import com.everis.models.dtoprojection.StudentProjection;
 
 import java.util.List;
 
@@ -18,6 +19,8 @@ import org.springframework.stereotype.Service;
 @Service
 public interface IClassService {
 
+  List<StudentProjection> findAllStudents();
+  
   /**
    * Metodo para obtener la lista de Class.
    * 

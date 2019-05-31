@@ -4,7 +4,6 @@ import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.delete;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.put;
@@ -49,6 +48,15 @@ public class SubjectControllerTest {
   }
 
   @Test
+  public void testFindAllNotFound() throws Exception {
+    List<Subject> subject = new ArrayList<>();
+    given(subjectController.findAll()).willReturn(subject);
+
+    this.mockMvc.perform(get("/api/v1.0/subjec"))
+        .andExpect(status().isNotFound());
+  }
+
+  @Test
   public void testFindById() throws Exception {
     subject = new Subject();
     subject.setSubjectId(1);
@@ -58,6 +66,13 @@ public class SubjectControllerTest {
 
     this.mockMvc.perform(get("/api/v1.0/subjects/1")).andExpect(status().isOk())
         .andExpect(content().json("{\"subjectId\":1,\"subjectName\":\"PHP\"}"));
+  }
+
+  @Test
+  public void testFindByIdNotFound() throws Exception {
+    given(subjectController.findById(10)).willReturn(subject);
+    this.mockMvc.perform(get("/api/v1.0/subjects/10"))
+        .andExpect(status().isNotFound());
   }
 
   @Test
@@ -75,17 +90,38 @@ public class SubjectControllerTest {
   }
 
   @Test
+  public void testSaveNotFound() throws Exception {
+    subject = new Subject();
+
+    subjectController.save(subject);
+
+    this.mockMvc.perform(post("/api/v1.0/subjects"))
+        .andExpect(status().isBadRequest());
+  }
+
+  @Test
   public void testUpdate() throws Exception {
     subject = new Subject();
     subject.setSubjectName("PHP");
 
-    subjectController.save(subject);
+    subjectController.update(subject);
 
     this.mockMvc
         .perform(
             put("/api/v1.0/subjects").contentType(MediaType.APPLICATION_JSON)
                 .content(asJsonString(subject)))
         .andExpect(status().isNoContent());
+  }
+
+  @Test
+  public void testUpdateNotFound() throws Exception {
+    subject = new Subject();
+    subject.setSubjectName("PHPacvac");
+
+    subjectController.update(subject);
+
+    this.mockMvc.perform(put("/api/v1.0/subjects"))
+        .andExpect(status().isBadRequest());
   }
 
   // @Test

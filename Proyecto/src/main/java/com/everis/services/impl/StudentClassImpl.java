@@ -8,6 +8,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+
 /**
  * Project: Clase para generar el servicio implementar métodos de
  * StudentClassImpl. Esta clase implementa los métodos que realiza nuestro
@@ -40,19 +41,19 @@ public class StudentClassImpl implements IStudentClassService {
   }
 
   /**
-   * Metodo para actualizar un objeto existente.
-   */
-  @Override
-  public StudentClass update(StudentClass studentClass) {
-    return studentClassRepo.save(studentClass);
-  }
-
-  /**
    * Metodo para eliminar o desabilitar un objeto.
    */
   @Override
   public void softdelete(String id) {
     studentClassRepo.softDelete(id);
+  }
+
+  /**
+   * Metodo para listar los students por un classId.
+   */
+  @Override
+  public List<Integer> findIdStudentByClassId(int classId) {
+    return studentClassRepo.findIdStudentByClassId(classId);
   }
 
 }

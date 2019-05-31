@@ -1,5 +1,6 @@
 package com.everis.repositories;
 
+import java.util.Collection;
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -26,4 +27,7 @@ public interface IStudentRepo extends JpaRepository<Student, Integer> {
 	
 	@Query("select s from Student s where s.studentId IN :listStudentById")
 	List<Student> findAllById(List<Integer> listStudentById);
+	
+	@Query(value = "select s.* from student s LEFT JOIN student_class sc ON s.student_id = sc.student_id LEFT JOIN class c ON sc.class_id WHERE c.class_id =?1", nativeQuery = true)
+	Collection<Student> findAllStudentsByClassId(Integer classId);
 }

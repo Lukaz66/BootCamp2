@@ -1,13 +1,10 @@
 package com.everis.services.impl;
 
-import com.everis.feign.StudentClient;
 import com.everis.models.Class;
-import com.everis.models.Student;
+import com.everis.models.dtoprojection.StudentProjection;
 import com.everis.repositories.IClassRepositorie;
-import com.everis.repositories.IStudentClassRepositories;
 import com.everis.services.IClassService;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,7 +12,8 @@ import org.springframework.stereotype.Service;
 
 /**
  * Project: Clase para generar el servicio implementar métodos de
- * ClassServiceImpl. Esta clase implementa los métodos que realiza nuestro servicio.
+ * ClassServiceImpl. Esta clase implementa los métodos que realiza nuestro
+ * servicio.
  * 
  * @author Llanos_Canahuire_Waldo
  * @version 29/05/2019
@@ -27,12 +25,6 @@ public class ClassServiceImpl implements IClassService {
   @Autowired
   private IClassRepositorie classRepo;
 
-  @Autowired
-  private IStudentClassRepositories studentClassRepo;
-  
-  @Autowired
-  private StudentClient studentClient;
-  
   /**
    * Implementando el metodo listar.
    */
@@ -81,13 +73,9 @@ public class ClassServiceImpl implements IClassService {
     return classRepo.save(clas);
   }
 
-//  @Override
-//  public List<Student> findIdStudentByClassId(Integer classId) {
-//    List<Student> listStudents = new ArrayList<Student>();
-//    List<Student> listIdsStudents = findIdStudentByClassId(classId);
-//    listStudents = studentClient.getAllById(listIdsStudents);
-//    
-//    return listStudents;
-//  }
+  @Override
+  public List<StudentProjection> findAllStudents() {
+    return classRepo.getAll();
+  }
 
 }
