@@ -1,3 +1,4 @@
+command=C\:\\Program Files\\Java\\jdk1.8.0_201\\bin\\javadoc.exe
 content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="com.everis.models.Class"><rhs name\="com.everis.models.Class"/></lhs><lhs name\="com.everis.models.Subject"><rhs name\="com.everis.models.Subject"/></lhs><lhs name\="com.everis.models.Teacher"><rhs name\="com.everis.models.Teacher"/></lhs></history>
 content_assist_number_of_computers=15
 content_assist_proposals_background=255,255,255

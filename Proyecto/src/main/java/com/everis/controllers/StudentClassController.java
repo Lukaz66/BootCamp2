@@ -106,6 +106,8 @@ public class StudentClassController {
    * 
    * @param stucl
    *          variable donde se va a almacenar el nuevo campo
+   *         
+   * @return un nuevo studentClass insertado.
    */
   @ApiOperation(value = "Insertar StudentClass")
   @PostMapping

@@ -75,6 +75,8 @@ public class ClassController {
    * 
    * @param cla
    *          guarda el nuevo campo en el servicio cla
+   *          
+   * @return un nuevo class insertado.
    */
   @ApiOperation(value = "Insertar Class")
   @PostMapping
@@ -87,6 +89,8 @@ public class ClassController {
    * 
    * @param cla
    *          guarda el nuevo campo en el servicio cla
+   *          
+   * @return un class actualizado.
    */
   @ApiOperation(value = "Actualizar Class")
   @PutMapping
@@ -101,6 +105,8 @@ public class ClassController {
    *          Busca el campo por el id de Class
    * @param fields
    *          Obtiene el campo y lo modifica por uno nuevo
+   *          
+   * @return un class actualizado por un solo campo.
    */
   @ApiOperation(value = "Actualizar Class por Campo")
   @PatchMapping(value = "/{id}")

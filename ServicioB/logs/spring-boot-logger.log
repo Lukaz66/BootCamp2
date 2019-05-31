@@ -45,3 +45,25 @@
 2019-05-31 09:32:34,396 | 265EA1C7BA454E88AAFA8C967F933BF0 | INFO com.everis.controllers.StudentController [http-nio-8091-exec-5] Los Student fueron listados
 2019-05-31 09:34:10,017 | DE1454C52E5D421DA66106475DBA3CAC | INFO com.everis.controllers.StudentController [http-nio-8091-exec-8] Los Student fueron listados
 2019-05-31 09:45:57,284 | 1036BB7F98004FA6829A8C861220AA3A | INFO com.everis.controllers.StudentController [http-nio-8091-exec-2] Los Student fueron listados
+2019-05-31 13:08:26,479 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:08:56,933 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ProjectEverisApplicationTests in 33.653 seconds (JVM running for 35.774)
+2019-05-31 13:17:40,278 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:35:42,760 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:36:55,665 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ProjectEverisApplicationTests in 77.52 seconds (JVM running for 81.342)
+2019-05-31 13:42:47,528 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-31 13:42:53,241 |  | DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMDCFilter' configured for use
+2019-05-31 13:43:02,017 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProjectEverisApplication in 16.84 seconds (JVM running for 20.648)
+2019-05-31 14:18:52,142 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-31 14:19:07,517 |  | DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMDCFilter' configured for use
+2019-05-31 14:19:30,582 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProjectEverisApplication in 40.651 seconds (JVM running for 2209.186)
+2019-05-31 14:46:06,146 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 14:46:46,406 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ProjectEverisApplicationTests in 44.251 seconds (JVM running for 46.816)
+2019-05-31 15:30:43,054 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 15:31:53,881 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ProjectEverisApplicationTests in 77.029 seconds (JVM running for 79.219)
+2019-05-31 15:34:33,949 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 15:34:58,401 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ProjectEverisApplicationTests in 27.478 seconds (JVM running for 29.43)
+2019-05-31 15:59:52,760 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-31 16:00:35,929 |  | DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMDCFilter' configured for use
+2019-05-31 16:01:22,806 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProjectEverisApplication in 108.624 seconds (JVM running for 117.423)
+2019-05-31 16:10:46,335 | BBE4182514674422AEB861C4BD1C1D63 | INFO com.everis.controllers.StudentController [http-nio-8091-exec-1] Los Student fueron listados
+2019-05-31 17:27:44,649 | 9CE19DB0A2B1425685777911E135C53F | INFO com.everis.controllers.StudentController [http-nio-8091-exec-6] Los Student fueron listados

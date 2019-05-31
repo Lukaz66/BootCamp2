@@ -9,12 +9,12 @@ zuul:
   routes:
     servicio:
       path: /api/v2.0/**
-      url: http://localhost:8091/
+      url: http://10.225.125.175:8091/
       strip-prefix: false
 
     proyecto:
       path: /api/v1.0/**
-      url: http://localhost:8081/
+      url: http://10.225.125.175:8081/
       strip-prefix: false
 
 eureka:
@@ -27,7 +27,7 @@ eureka:
     fetch-registry: true
     
     service-url:
-     defaultzone: http://localhost:8761/eureka/
+     defaultzone: http://10.225.125.175:8761/eureka/
      
 management:
   endpoint:

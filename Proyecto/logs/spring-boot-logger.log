@@ -221,3 +221,174 @@
 2019-05-31 11:53:34,322 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectControllerTest in 7.584 seconds (JVM running for 10.029)
 2019-05-31 11:53:34,646 | 603E6982DB8B45CCB16FE07AF91A8D16 | INFO com.everis.controllers.SubjectController [main] Los Subjects Fueron Listados
 2019-05-31 11:53:34,996 | 1C6AF380E29643DA864C184B7D460C75 | INFO com.everis.controllers.SubjectController [main] Un Subject Fue Buscado
+2019-05-31 11:57:32,373 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:57:36,932 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ClassControllerTest in 7.544 seconds (JVM running for 10.141)
+2019-05-31 11:57:37,522 | A26AC6BE9AD64F9DADDF1B7E79762760 | INFO com.everis.controllers.ClassController [main] Las Clases Fueron Listadas
+2019-05-31 11:57:37,790 | CF9CB6C778354642904EE7E8E05220E3 | INFO com.everis.controllers.ClassController [main] Una Clase Fue Buscada
+2019-05-31 11:57:39,045 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:57:40,907 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectControllerTest in 3.014 seconds (JVM running for 14.115)
+2019-05-31 11:57:40,943 | 4C471C0F8D0E4AD5917D17083C28DEC4 | INFO com.everis.controllers.SubjectController [main] Los Subjects Fueron Listados
+2019-05-31 11:57:40,987 | E892B920C6FA40FDAEC8A3AA60AA8D28 | INFO com.everis.controllers.SubjectController [main] Un Subject Fue Buscado
+2019-05-31 11:57:42,507 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:57:44,349 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started TeacherControllerTest in 3.245 seconds (JVM running for 17.557)
+2019-05-31 11:57:44,383 | 7A8C46FF61E64731B684E5C3A37EF739 | INFO com.everis.controllers.TeacherController [main] Los Teachers Fueron Listados
+2019-05-31 11:57:44,429 | 930185ECF3BE41ED85C9F849BCED7A45 | INFO com.everis.controllers.TeacherController [main] Un Teacher Fue Buscado
+2019-05-31 11:57:45,678 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:58:06,424 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ProyectoApplicationTests in 21.848 seconds (JVM running for 39.632)
+2019-05-31 11:59:31,852 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:59:37,926 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ClassControllerTest in 11.551 seconds (JVM running for 15.367)
+2019-05-31 11:59:38,733 | 442CCB557EA64ADBAD7084997D19F6FF | INFO com.everis.controllers.ClassController [main] Las Clases Fueron Listadas
+2019-05-31 11:59:39,371 | 7AA7CC720F424866A30BD69540B7BA5D | INFO com.everis.controllers.ClassController [main] Una Clase Fue Buscada
+2019-05-31 11:59:40,795 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:59:42,911 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectControllerTest in 3.351 seconds (JVM running for 20.352)
+2019-05-31 11:59:42,973 | 76413ED9D6E74F03809FDCE84DA81F48 | INFO com.everis.controllers.SubjectController [main] Los Subjects Fueron Listados
+2019-05-31 11:59:43,015 | 815F6B36CB2B447F9F82BA8A9FC6A933 | INFO com.everis.controllers.SubjectController [main] Un Subject Fue Buscado
+2019-05-31 11:59:44,310 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 11:59:46,505 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started TeacherControllerTest in 3.359 seconds (JVM running for 23.947)
+2019-05-31 11:59:46,549 | 60B8503CF86D4BAF97249EAE9C30B4B9 | INFO com.everis.controllers.TeacherController [main] Los Teachers Fueron Listados
+2019-05-31 11:59:46,606 | 47D0648689B546448425688E3F0D23E8 | INFO com.everis.controllers.TeacherController [main] Un Teacher Fue Buscado
+2019-05-31 11:59:48,094 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:00:09,246 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ProyectoApplicationTests in 22.512 seconds (JVM running for 46.687)
+2019-05-31 12:11:52,529 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:11:58,207 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ClassControllerTest in 10.328 seconds (JVM running for 15.043)
+2019-05-31 12:11:59,103 | FAF866DFEA6B4325BBD58D3D59C74AED | INFO com.everis.controllers.ClassController [main] Las Clases Fueron Listadas
+2019-05-31 12:11:59,633 | 0CA92A8068514C9EB87C06A22A7C0305 | INFO com.everis.controllers.ClassController [main] Una Clase Fue Buscada
+2019-05-31 12:12:01,192 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:12:03,402 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectControllerTest in 3.53 seconds (JVM running for 20.237)
+2019-05-31 12:12:03,483 | AF081A6D99134EC6AEF2D4E03BA9C6E3 | INFO com.everis.controllers.SubjectController [main] Los Subjects Fueron Listados
+2019-05-31 12:12:03,529 | B11C2B750BDA43A1BEEC6821AAEF4E35 | INFO com.everis.controllers.SubjectController [main] Un Subject Fue Buscado
+2019-05-31 12:12:05,501 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:12:07,567 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started TeacherControllerTest in 3.92 seconds (JVM running for 24.403)
+2019-05-31 12:12:07,641 | 188FD82BDD7340E1A3A0B86D64FA9E8E | INFO com.everis.controllers.TeacherController [main] Los Teachers Fueron Listados
+2019-05-31 12:12:07,709 | 2DE81624D8C14CE1AEC5F4F3B663BEFF | INFO com.everis.controllers.TeacherController [main] Un Teacher Fue Buscado
+2019-05-31 12:12:09,228 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 12:12:29,748 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ProyectoApplicationTests in 21.899 seconds (JVM running for 46.583)
+2019-05-31 13:18:47,851 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:18:52,568 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ClassControllerTest in 8.095 seconds (JVM running for 10.427)
+2019-05-31 13:18:52,806 | A022F8E35F40499BA0039D75D19BD4E4 | INFO com.everis.controllers.ClassController [main] Las Clases Fueron Listadas
+2019-05-31 13:18:53,068 | FB652CAF20FC418D94861627FE7C02BB | INFO com.everis.controllers.ClassController [main] Una Clase Fue Buscada
+2019-05-31 13:18:54,663 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:18:56,548 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectControllerTest in 3.314 seconds (JVM running for 14.406)
+2019-05-31 13:18:56,584 | 00B40ADE2C274657BA411CA3F08A25BB | INFO com.everis.controllers.SubjectController [main] Los Subjects Fueron Listados
+2019-05-31 13:18:56,631 | 8C0F04A99AB341B68907E9F39DDEF759 | INFO com.everis.controllers.SubjectController [main] Un Subject Fue Buscado
+2019-05-31 13:18:57,826 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:18:59,513 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started TeacherControllerTest in 2.78 seconds (JVM running for 17.37)
+2019-05-31 13:18:59,545 | 06C6275FA2524F74A1B2D8A1CECECD74 | INFO com.everis.controllers.TeacherController [main] Los Teachers Fueron Listados
+2019-05-31 13:18:59,569 | C291A9B02364452FA9F3BC6152154687 | INFO com.everis.controllers.TeacherController [main] Un Teacher Fue Buscado
+2019-05-31 13:19:00,818 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:21:39,062 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-31 13:21:45,029 |  | DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMDCFilter' configured for use
+2019-05-31 13:37:28,508 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-31 13:37:35,159 |  | DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMDCFilter' configured for use
+2019-05-31 13:37:44,122 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProyectoApplication in 18.045 seconds (JVM running for 21.713)
+2019-05-31 13:38:13,746 | 11FF412927A04EA2AE259BB5B28D5D82 | INFO com.everis.controllers.ClassController [http-nio-8081-exec-1] Las Clases Fueron Listadas
+2019-05-31 13:38:19,805 | BFE23598D7E74BEF9143FBCCF62FC151 | INFO com.everis.controllers.ClassController [http-nio-8081-exec-3] Las Clases Fueron Listadas
+2019-05-31 13:39:10,321 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-31 13:39:14,796 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProyectoApplication in 5.226 seconds (JVM running for 112.384)
+2019-05-31 13:39:28,207 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-31 13:39:31,617 |  | DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMDCFilter' configured for use
+2019-05-31 13:39:34,840 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProyectoApplication in 8.116 seconds (JVM running for 132.429)
+2019-05-31 13:39:53,822 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:40:04,283 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ClassControllerTest in 15.62 seconds (JVM running for 28.396)
+2019-05-31 13:40:20,008 | B680DE07192843A19861FC53DB247B74 | INFO com.everis.controllers.ClassController [main] Las Clases Fueron Listadas
+2019-05-31 13:40:20,910 | 88EDADE82BDD4127BC99E561B02C7041 | INFO com.everis.controllers.ClassController [main] Una Clase Fue Buscada
+2019-05-31 13:40:22,524 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:40:24,853 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectControllerTest in 3.79 seconds (JVM running for 48.966)
+2019-05-31 13:40:24,906 | 1E494FDD0E6D489CA68DFA67F46B6528 | INFO com.everis.controllers.SubjectController [main] Los Subjects Fueron Listados
+2019-05-31 13:40:24,971 | 4F783DCEE86641378A087DBF7567C0F4 | INFO com.everis.controllers.SubjectController [main] Un Subject Fue Buscado
+2019-05-31 13:40:26,294 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:40:28,909 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started TeacherControllerTest in 3.804 seconds (JVM running for 53.021)
+2019-05-31 13:40:28,958 | B5DDD55BBCC5416EAD020BF2F0DDEF32 | INFO com.everis.controllers.TeacherController [main] Los Teachers Fueron Listados
+2019-05-31 13:40:28,999 | 94D907C490B04021AD7755C3369FED2C | INFO com.everis.controllers.TeacherController [main] Un Teacher Fue Buscado
+2019-05-31 13:40:30,392 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:41:08,954 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ProyectoApplicationTests in 39.825 seconds (JVM running for 93.066)
+2019-05-31 13:42:16,321 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-31 13:42:19,027 |  | DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMDCFilter' configured for use
+2019-05-31 13:42:21,645 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProyectoApplication in 6.192 seconds (JVM running for 299.232)
+2019-05-31 13:46:42,236 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-31 13:46:47,244 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProyectoApplication in 6.84 seconds (JVM running for 564.828)
+2019-05-31 13:46:56,260 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-31 13:47:00,086 |  | DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMDCFilter' configured for use
+2019-05-31 13:47:04,729 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProyectoApplication in 9.845 seconds (JVM running for 582.312)
+2019-05-31 13:47:32,741 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:47:46,811 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ClassControllerTest in 20.357 seconds (JVM running for 34.533)
+2019-05-31 13:47:57,199 | 37F14375988A4107B436B6810396292F | INFO com.everis.controllers.ClassController [main] Las Clases Fueron Listadas
+2019-05-31 13:47:57,627 | 38C97FC8E3334CC7A3E158948B405C02 | INFO com.everis.controllers.ClassController [main] Una Clase Fue Buscada
+2019-05-31 13:47:58,824 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:48:01,255 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectControllerTest in 3.465 seconds (JVM running for 48.976)
+2019-05-31 13:48:01,310 | DCA52953912B4BA6A91F22935D97F92F | INFO com.everis.controllers.SubjectController [main] Los Subjects Fueron Listados
+2019-05-31 13:48:01,346 | A1875F0CE07A4FEE846131A8853B0467 | INFO com.everis.controllers.SubjectController [main] Un Subject Fue Buscado
+2019-05-31 13:48:03,240 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:48:04,992 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started TeacherControllerTest in 3.404 seconds (JVM running for 52.714)
+2019-05-31 13:48:05,052 | B53E623F58C645A1B3C3BEE637B66ECA | INFO com.everis.controllers.TeacherController [main] Los Teachers Fueron Listados
+2019-05-31 13:48:05,120 | 108BDDCF331348ECB2C361D928F0BDB7 | INFO com.everis.controllers.TeacherController [main] Un Teacher Fue Buscado
+2019-05-31 13:48:06,691 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:48:52,598 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ProyectoApplicationTests in 47.349 seconds (JVM running for 100.319)
+2019-05-31 13:49:47,492 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-31 13:49:51,967 |  | DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMDCFilter' configured for use
+2019-05-31 13:49:57,915 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProyectoApplication in 11.281 seconds (JVM running for 755.496)
+2019-05-31 13:50:01,906 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:50:07,795 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ClassControllerTest in 10.431 seconds (JVM running for 15.856)
+2019-05-31 13:50:08,811 | 9151157E905E4E7C8708EB2C099E666D | INFO com.everis.controllers.ClassController [main] Las Clases Fueron Listadas
+2019-05-31 13:50:09,314 | D63FECE9255E494488F0D9B72D90A107 | INFO com.everis.controllers.ClassController [main] Una Clase Fue Buscada
+2019-05-31 13:50:11,099 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:50:13,287 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectControllerTest in 3.748 seconds (JVM running for 21.349)
+2019-05-31 13:50:13,335 | 44E7F0112F1946BCB67C3ED510AE5A8B | INFO com.everis.controllers.SubjectController [main] Los Subjects Fueron Listados
+2019-05-31 13:50:13,377 | BA60F3B39B4C4A69A51E35C897A01DF4 | INFO com.everis.controllers.SubjectController [main] Un Subject Fue Buscado
+2019-05-31 13:50:14,757 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:50:16,895 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started TeacherControllerTest in 3.378 seconds (JVM running for 24.956)
+2019-05-31 13:50:16,958 | 3C34C252E36541208F0C1CAEF40B7FF2 | INFO com.everis.controllers.TeacherController [main] Los Teachers Fueron Listados
+2019-05-31 13:50:17,029 | 772A64AA24F3466FB413501E307E2B3F | INFO com.everis.controllers.TeacherController [main] Un Teacher Fue Buscado
+2019-05-31 13:50:18,897 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 13:51:17,889 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ProyectoApplicationTests in 60.742 seconds (JVM running for 85.949)
+2019-05-31 14:47:39,413 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 14:47:44,647 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ClassControllerTest in 8.178 seconds (JVM running for 10.155)
+2019-05-31 14:47:46,559 | 1E6A74C70BC4476FA938F96F31E6A171 | INFO com.everis.controllers.ClassController [main] Las Clases Fueron Listadas
+2019-05-31 14:47:47,468 | 5512AAB1D4F740D1A3BB311767D444E3 | INFO com.everis.controllers.ClassController [main] Una Clase Fue Buscada
+2019-05-31 14:47:48,811 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 14:47:50,970 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectControllerTest in 3.257 seconds (JVM running for 16.479)
+2019-05-31 14:47:51,012 | 7BC971321F474AB29DF070ECAC20C808 | INFO com.everis.controllers.SubjectController [main] Los Subjects Fueron Listados
+2019-05-31 14:47:51,057 | 098C61CD813E4D3892F3EB75766E5FBC | INFO com.everis.controllers.SubjectController [main] Un Subject Fue Buscado
+2019-05-31 14:47:52,800 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 14:47:54,495 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started TeacherControllerTest in 3.302 seconds (JVM running for 20.003)
+2019-05-31 14:47:54,531 | 2E937FF1DB694E3FB92121DB2C184BE0 | INFO com.everis.controllers.TeacherController [main] Los Teachers Fueron Listados
+2019-05-31 14:47:54,571 | 099BE243C3E14B91B8396F6B48A90D11 | INFO com.everis.controllers.TeacherController [main] Un Teacher Fue Buscado
+2019-05-31 14:47:56,039 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 14:48:42,127 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ProyectoApplicationTests in 47.444 seconds (JVM running for 67.636)
+2019-05-31 15:42:08,820 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 15:42:14,198 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ClassControllerTest in 8.942 seconds (JVM running for 10.973)
+2019-05-31 15:42:15,126 | A57FD0006C1F4D24A6790A45D0FB38E8 | INFO com.everis.controllers.ClassController [main] Las Clases Fueron Listadas
+2019-05-31 15:42:15,490 | 4458FAEA22B947F9BC036F25B9793DB6 | INFO com.everis.controllers.ClassController [main] Una Clase Fue Buscada
+2019-05-31 15:42:16,870 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 15:42:18,902 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started SubjectControllerTest in 3.213 seconds (JVM running for 15.677)
+2019-05-31 15:42:18,940 | 3F9DD94F54F143B7A4926CBE2F05FC17 | INFO com.everis.controllers.SubjectController [main] Los Subjects Fueron Listados
+2019-05-31 15:42:18,976 | 170BFD1BC46E4ECF84AB0B87E2B38FA9 | INFO com.everis.controllers.SubjectController [main] Un Subject Fue Buscado
+2019-05-31 15:42:20,486 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 15:42:22,616 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started TeacherControllerTest in 3.514 seconds (JVM running for 19.393)
+2019-05-31 15:42:22,649 | DD2C1732F12B4EBFA70FB4F31F080DC2 | INFO com.everis.controllers.TeacherController [main] Los Teachers Fueron Listados
+2019-05-31 15:42:22,680 | CD87852B2E0444388E4E16C96B734E8A | INFO com.everis.controllers.TeacherController [main] Un Teacher Fue Buscado
+2019-05-31 15:42:24,324 |  | INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-05-31 15:43:10,091 |  | INFO org.springframework.boot.StartupInfoLogger [main] Started ProyectoApplicationTests in 47.29 seconds (JVM running for 66.869)
+2019-05-31 15:58:11,055 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-31 15:58:37,118 |  | DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMDCFilter' configured for use
+2019-05-31 15:59:12,566 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProyectoApplication in 69.484 seconds (JVM running for 72.624)
+2019-05-31 16:10:55,560 | EC84C5F974CD482788C75908CE87860E | INFO com.everis.controllers.TeacherController [http-nio-8081-exec-2] Los Teachers Fueron Listados
+2019-05-31 16:10:59,632 | 65E2B876E5074B3A8BD8214621BCF236 | INFO com.everis.controllers.ClassController [http-nio-8081-exec-3] Las Clases Fueron Listadas
+2019-05-31 16:12:03,626 | C4D451803E9748089766B53049097B4A | INFO com.everis.controllers.StudentClassController [http-nio-8081-exec-8] Los students por ids se listaron
+2019-05-31 16:12:13,330 | 44A14AF13759418F9FE07C2A5ADE1399 | INFO com.everis.controllers.StudentClassController [http-nio-8081-exec-10] Los students por ids se listaron
+2019-05-31 16:13:08,506 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-31 16:13:12,215 |  | DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMDCFilter' configured for use
+2019-05-31 16:13:15,133 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProyectoApplication in 7.679 seconds (JVM running for 915.193)
+2019-05-31 16:18:01,830 | 6BBF8EDE3A854FB1895119D5DB864816 | INFO com.everis.controllers.StudentClassController [http-nio-8081-exec-2] Los students por ids se listaron
+2019-05-31 16:18:41,119 | 9B4F41EDE9A0449DA70ED7CE3E4B6AEA | INFO com.everis.controllers.StudentClassController [http-nio-8081-exec-4] Los StudentClass fueron Listados
+2019-05-31 16:24:54,414 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-31 16:24:56,537 |  | DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMDCFilter' configured for use
+2019-05-31 16:24:59,126 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProyectoApplication in 5.428 seconds (JVM running for 1619.188)
+2019-05-31 16:42:00,041 |  | INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-05-31 16:42:02,206 |  | DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'slf4jMDCFilter' configured for use
+2019-05-31 16:42:04,747 |  | INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProyectoApplication in 5.395 seconds (JVM running for 2644.809)
+2019-05-31 17:26:19,847 | E84A6806254D495F919C828CABD91AD1 | INFO com.everis.controllers.SubjectController [http-nio-8081-exec-2] Un Subject Fue Buscado
+2019-05-31 17:26:27,585 | 45A7673180374CAAA25D467AEC84FA7A | INFO com.everis.controllers.SubjectController [http-nio-8081-exec-4] Los Subjects Fueron Listados
+2019-05-31 17:26:43,807 | 7F0E3DE41D864724960A39A2EAD89729 | INFO com.everis.controllers.StudentClassController [http-nio-8081-exec-5] Los students por ids se listaron
+2019-05-31 17:27:03,747 | 706BC3F85EF941D682C08E980517EEDD | INFO com.everis.controllers.StudentClassController [http-nio-8081-exec-7] Los students por ids se listaron
+2019-05-31 17:27:58,061 | 38AF1BB88E1A4B34A4577A021D58DE7B | INFO com.everis.controllers.TeacherController [http-nio-8081-exec-6] Los Teachers Fueron Listados
